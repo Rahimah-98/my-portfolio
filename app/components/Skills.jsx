@@ -7,12 +7,23 @@ const skills = [
   'Git',
   'SEO',
   'Responsive Design',
+  'Tailwind CSS',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'TypeScript',
+  'GraphQL',
+  'RESTful APIs',
+  'Webpack',
+  'Figma',
+  'Agile Methodologies',
+  'Testing & Debugging',
 ];
 
 export default function Skills() {
   return (
     <div>
-      <h3 className='font-semibold text-xl mb-4'>My Skills</h3>
+      <h3 className='font-semibold text-xl mb-1'>My Skills</h3>
 
       <div className='flex flex-wrap gap-3'>
         {skills.map((skill) => (

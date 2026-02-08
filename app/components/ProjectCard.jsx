@@ -15,9 +15,7 @@ export default function ProjectCard({ title, desc, image }) {
         <h3 className='text-2xl font-bold text-gray-600'>{title}</h3>
         <p className='mt-4 text-gray-600'>{desc}</p>
 
-        <button className='mt-6 bg-amber-400 text-white px-6 py-2 rounded'>
-          CASE STUDY
-        </button>
+        <button className='mt-6 btn'>CASE STUDY</button>
       </div>
     </div>
   );

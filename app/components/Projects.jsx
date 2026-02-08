@@ -2,20 +2,20 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Dopefolio',
-    desc: 'Open source portfolio template.',
+    title: 'wild aosis',
+    desc: 'lorem ipsum dolor sit amet consectetur.',
     image: '/projects/1.png',
   },
   {
-    title: 'Wilsonport',
-    desc: 'Transport logistics platform.',
+    title: 'Ecummerce',
+    desc: 'lorem ipsum dolor sit amet consectetur.',
     image: '/projects/2.png',
   },
 ];
 
 export default function Projects() {
   return (
-    <section className='bg-gray-50 py-28 px-6'>
+    <section className='bg-gray-50 py-28 px-6' id='projects'>
       <h2 className='text-center text-3xl font-bold mb-20 text-gray-600'>
         PROJECTS
       </h2>

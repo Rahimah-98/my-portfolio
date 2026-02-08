@@ -1,15 +1,16 @@
 import { Linkedin, Github, Instagram } from 'lucide-react';
+import Link from 'next/link';
 
 export default function SocialSidebar() {
   return (
-    <div className='fixed left-6 top-1/2 -translate-y-1/2 md:flex flex-col gap-4'>
+    <div className='hidden md:flex absolute left-4 top-70 z-40 flex-col gap-4'>
       {[Linkedin, Github, Instagram].map((Icon, i) => (
-        <a
+        <Link
           key={i}
-          href='#'
-          className='p-2 bg-white text-amber-400 shadow rounded hover:rounded-full'>
+          href='/'
+          className='p-2 bg-gray-600 shadow-sm rounded transition duration-300 hover:bg-amber-400 hover:text-white hover:-translate-y-0.5'>
           <Icon size={18} />
-        </a>
+        </Link>
       ))}
     </div>
   );
