@@ -2,7 +2,7 @@ import { Linkedin, Github, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className='relative text-white bottom-0 w-full -mb-50'>
+    <footer className='relative text-white w-full -mb-50'>
       {/* Dark overlay */}
       <div className='absolute inset-0 bg-black' />
 

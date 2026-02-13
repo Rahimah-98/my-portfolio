@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className='container mx-auto flex items-center justify-between px-6 py-4 md:px-12'>
         {/* Logo */}
         <Link
-          href='/'
+          href='#'
           className={`flex items-center gap-3 transition-opacity duration-200
             ${
               isOpen
@@ -25,10 +25,10 @@ export default function Navbar() {
             alt='Logo'
             width={42}
             height={42}
-            className='rounded-full md:w-[50px] md:h-[50px]'
+            className='rounded-full md:w-12.5 md:h-12.5'
             priority
           />
-          <span className='text-sm font-semibold text-gray-700 md:text-lg transition duration-200 hover:text-amber-400'>
+          <span className='text-sm font-semibold text-gray-700 md:text-lg transition duration-200 hover:text-amber-400 hover:-translate-y-0.5'>
             Rahimah Ansari
           </span>
         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
                 w-full border-b border-gray-200 py-5 text-center
                 text-sm font-bold tracking-wider uppercase text-gray-700
                 transition duration-200 hover:text-amber-400
-                md:w-auto md:border-none md:py-0
+                md:w-auto md:border-none md:py-0 hover:-translate-y-0.5 
               '>
               {item}
             </Link>

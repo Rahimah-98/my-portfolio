@@ -2,7 +2,7 @@ const config = {
   plugins: {
     '@tailwindcss/postcss': {},
   },
-  darkMode: 'className',
+  darkMode: 'class',
   theme: {
     extend: {
       color: {

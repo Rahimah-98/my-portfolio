@@ -2,7 +2,7 @@ import Skills from './Skills';
 
 export default function About() {
   return (
-    <section className='py-28 px-6 max-w-6xl mx-auto text-gray-700'>
+    <section id='#about' className='py-28 px-6 max-w-6xl mx-auto text-gray-700'>
       <h2 className='text-center text-3xl font-bold mb-16'>ABOUT ME</h2>
 
       <div className='grid md:grid-cols-2 gap-16'>

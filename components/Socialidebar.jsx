@@ -8,7 +8,7 @@ export default function SocialSidebar() {
         <Link
           key={i}
           href='/'
-          className='p-2 bg-gray-600 shadow-sm rounded transition duration-300 hover:bg-amber-400 hover:text-white hover:-translate-y-0.5'>
+          className='p-2 bg-gray-600 shadow-sm rounded transition duration-300 hover:bg-amber-400 hover:rotate-180 hover:text-white hover:-translate-y-0.5'>
           <Icon size={18} />
         </Link>
       ))}
